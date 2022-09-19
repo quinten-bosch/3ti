@@ -108,10 +108,10 @@ $contents = file_get_contents($exploded[1]. ".md");
 
 <?php echo $parser->parse($contents); 
 if(isset($_GET['file'])){
-echo "<footer> Ik ben niet verantwoordelijk voor mogelijke fouten. " . "Laatst gewijzigd: " . date ("Y/m/d H:i",filemtime("Deadlines.md"));
+echo "<footer> Ik ben niet verantwoordelijk voor mogelijke fouten. " . " <br> Laatst gewijzigd: " . date ("Y/m/d H:i",filemtime("Deadlines.md"));
 echo "<footer> Fout gevonden? Doe een pull request: <a href='https://github.com/quinten-bosch/3ti'>Github</a>";
 } else{
-echo "<footer> Ik ben niet verantwoordelijk voor mogelijke fouten. " . "Laatst gewijzigd: " . date ("Y/m/d H:i",filemtime($exploded[1]. ".md"));
+echo "<footer> Ik ben niet verantwoordelijk voor mogelijke fouten. " . " <br> Laatst gewijzigd: " . date ("Y/m/d H:i",filemtime($exploded[1]. ".md"));
 echo "<footer> Fout gevonden? Doe een pull request: <a href='https://github.com/quinten-bosch/3ti'>Github</a>";
 }
 ?>
