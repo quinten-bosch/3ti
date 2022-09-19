@@ -1,6 +1,10 @@
 # Mobile Applications [MBI20X] | 3 SP
 ---
 
+## Mobiele app maken
+- minimum requirements
+    - 3 specifieke functies
+    - geen crashes
 
 ## Evaluatie
 
