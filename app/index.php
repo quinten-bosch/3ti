@@ -33,9 +33,9 @@
 <body>
  
 
-<title> Samenvattingen 2TI </title>
+<title> Samenvattingen 3TI </title>
 <div>
-<h2>Samenvattingen 2TI (SO)</h2> 
+<h2>Samenvattingen 3TI (SO)</h2> 
 <?php
 
 
