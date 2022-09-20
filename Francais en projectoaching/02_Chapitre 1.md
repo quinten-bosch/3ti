@@ -16,7 +16,13 @@ Il **fait** chaud
 C’est la première fois que vous venez dans notre entreprise?  
 Embouteillage = verkeer  
 Je suis 10 minutes en retard. Désole  
-
+La réception  
+Rendez vous  
+Une salle de réunion  
+L’entrée  
+J’ai un rendez-vous concernant  
+Aux sujet de  
+Prévenir
 
 
 
