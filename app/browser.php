@@ -33,7 +33,7 @@ echo "<h2> $dirr </h2>";
 
 chdir($dirr);
   
-$myfiles = array_diff(scandir(getcwd()), array('.', '..', 'Parsedown.php', '.git', '.gitattributes')); 
+$myfiles = array_diff(scandir(getcwd()), array('.', '..', 'Parsedown.php', '.git', '.gitattributes', 'index.html', 'cgi-bin')); 
 
 foreach ($myfiles as $value) {
     $testurl = strstr($value, '_');
