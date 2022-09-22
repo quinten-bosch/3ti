@@ -3,6 +3,17 @@
 
 ## Inhoud
 
+```
+Git:
+apt install git
+cd /etc
+git init
+git status
+git add .
+git commit -m "Initial Commit"
+
+```
+
 ## Evaluatie
 
 - 100% PE
