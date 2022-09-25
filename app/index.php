@@ -40,7 +40,7 @@
 
 
 chdir("..");
-$myfiles = array_diff(scandir(getcwd()), array('.', '..', 'lars', 'Parsedown.php', 'index.php', 'browser.php', 'parse.php', 'dark.css', 'samenvatting.php', 'Deadlines.md', '.git', '.gitattributes', 'README.md', '.github', '.ftp-deploy-sync-state.json', 'vendor', '.htaccess', 'app' )); 
+$myfiles = array_diff(scandir(getcwd()), array('.', '..', 'lars', 'Parsedown.php', 'index.php', 'browser.php', 'parse.php', 'dark.css', 'samenvatting.php', 'Deadlines.md', '.git', '.gitattributes', 'README.md', '.github', '.ftp-deploy-sync-state.json', 'vendor', '.htaccess', 'app', 'deadlines.ics' )); 
 
 
 
