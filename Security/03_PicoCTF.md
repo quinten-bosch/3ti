@@ -33,3 +33,14 @@
 > ./warm -h
 
 > $ Oh, help? I actually don't do much, but I do have this flag here: picoCTF{b1scu1ts_4nd_gr4vy_6635aa47}
+
+
+### Information
+
+> exiftool cat.jpg
+
+> $ License                         : cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9
+
+> echo cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9 | base64 -d
+
+> $ picoCTF{the_m3tadata_1s_modified}
